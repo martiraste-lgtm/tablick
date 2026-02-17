@@ -10,7 +10,7 @@ const HeroSection = () => {
           Tablick è un canale di vendita digitale per libri universitari
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-          Pubblichi i tuoi titoli in digitale e vendi sia il libro intero che i singoli capitoli. Tu mandi il file, al resto pensiamo noi.
+          Metti online i tuoi libri e li rendi acquistabili interamente e/o per singoli capitoli. Tu mandi il file, al resto pensiamo noi.
         </p>
         <Button asChild size="lg" className="rounded-full px-10 text-base mb-8">
           <a href={DEMO_URL}>Prenota una demo</a>
