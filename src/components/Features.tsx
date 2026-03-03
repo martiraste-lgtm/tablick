@@ -53,7 +53,7 @@ const Features = () => {
                 key={i}
                 className={`flex flex-col md:flex-row items-start gap-8 md:gap-12 ${isReversed ? "md:flex-row-reverse" : ""}`}>
                 
-                <div className="flex-shrink-0 w-16 h-16 rounded-2xl bg-secondary flex items-center justify-center">
+                <div className="flex-shrink-0 w-16 h-16 rounded-3xl bg-secondary flex items-center justify-center">
                   <f.icon className="w-7 h-7 text-foreground" strokeWidth={1.5} />
                 </div>
                 <div className="flex-1">
