@@ -12,7 +12,7 @@ const features = [
   icon: Search,
   title: "SEO su intent studentesco",
   feature: "Ogni titolo viene ottimizzato per i motori di ricerca con keyword specifiche (titolo, autore, materia, università).",
-  capability: "Quando lo studente cerca il tuo libro su Google, trova la pagina Tablick tra i primi risultati — invece di un sito pirata.",
+  capability: "Quando lo studente cerca il tuo libro su Google, trova la pagina tablick tra i primi risultati — invece di un sito pirata.",
   benefit: "Hai un canale che intercetta la domanda studentesca nel momento esatto in cui nasce. Senza advertising, senza e-commerce. Tablick porta lo studente al tuo libro."
 },
 {
@@ -25,7 +25,7 @@ const features = [
 {
   icon: Handshake,
   title: "Onboarding \"guanti bianchi\"",
-  feature: "Tablick si occupa di caricamento file, compilazione metadati, creazione scheda prodotto e spacchettamento capitoli.",
+  feature: "tablick si occupa di caricamento file, compilazione metadati, creazione scheda prodotto e spacchettamento capitoli.",
   capability: "L'editore invia il file e le informazioni base. Non deve toccare nessuna dashboard, compilare nessun form complesso, convertire nessun formato.",
   benefit: "Hai un canale digitale attivo senza aver investito un'ora di lavoro né un euro in tecnologia. Mandi il file, il libro è online."
 },

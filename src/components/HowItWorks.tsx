@@ -9,7 +9,7 @@ const steps = [
   {
     icon: Cog,
     title: "Noi facciamo il resto",
-    desc: "Tablick crea la scheda prodotto, compila i metadati e mette il libro online. Se il file è in ePub, lo spacchetta automaticamente in capitoli vendibili singolarmente.",
+    desc: "tablick crea la scheda prodotto, compila i metadati e mette il libro online. Se il file è in ePub, lo spacchetta automaticamente in capitoli vendibili singolarmente.",
   },
   {
     icon: Coins,
