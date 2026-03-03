@@ -9,7 +9,7 @@ const rows = [
 { label: "Zero costi fissi / vincoli", tablick: true, amazon: true, uni: false, nulla: true }];
 
 
-const columns = ["Tablick", "Amazon", "Piattaforme universitarie", "Non fare nulla"];
+const columns = ["tablick", "Amazon", "Piattaforme universitarie", "Non fare nulla"];
 
 const CellIcon = ({ value }: {value: boolean;}) =>
 value ?
