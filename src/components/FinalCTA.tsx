@@ -9,15 +9,15 @@ const FinalCTA = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
           Porta i tuoi libri dove gli studenti li cercano
         </h2>
-        <p className="text-muted-foreground mb-10">
-          Prenota una call con il founder e scopri come attivare il tuo catalogo su Tablick.
+        <p className="text-muted-foreground mb-10">Prenota una call con il founder e scopri come attivare il tuo catalogo su tablick.
+
         </p>
         <Button asChild size="lg" className="rounded-full px-12 text-base">
           <a href={DEMO_URL}>Prenota una demo</a>
         </Button>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default FinalCTA;

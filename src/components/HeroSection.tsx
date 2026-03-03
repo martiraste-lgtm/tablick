@@ -6,8 +6,8 @@ const HeroSection = () => {
   return (
     <section className="pt-32 pb-20 md:pt-40 md:pb-28 px-6">
       <div className="max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight text-foreground mb-6">
-          Tablick è un canale di vendita digitale per libri universitari
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight text-foreground mb-6">tablick è un canale di vendita digitale per libri universitari
+
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
           Metti online i tuoi libri e li rendi acquistabili interamente e/o per singoli capitoli. Tu mandi il file, al resto pensiamo noi.
@@ -30,8 +30,8 @@ const HeroSection = () => {
           </span>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
