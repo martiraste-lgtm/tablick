@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const DEMO_URL = "#cta";
+const DEMO_URL = "https://calendly.com/mario-scagnetti-tabedizioni/30min";
 
 const FinalCTA = () => {
   return (
