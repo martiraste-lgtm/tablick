@@ -13,7 +13,7 @@ const FinalCTA = () => {
 
         </p>
         <Button asChild size="lg" className="rounded-full px-12 text-base">
-          <a href={DEMO_URL}>Prenota una demo</a>
+          <a href={DEMO_URL} target="_blank" rel="noopener noreferrer">Prenota una demo</a>
         </Button>
       </div>
     </section>);

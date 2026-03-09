@@ -13,7 +13,7 @@ const HeroSection = () => {
           Metti online i tuoi libri e li rendi acquistabili interamente e/o per singoli capitoli. Tu mandi il file, al resto pensiamo noi.
         </p>
         <Button asChild size="lg" className="rounded-full px-10 text-base mb-8">
-          <a href={DEMO_URL}>Prenota una demo</a>
+          <a href={DEMO_URL} target="_blank" rel="noopener noreferrer">Prenota una demo</a>
         </Button>
         <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
           <span className="flex items-center gap-2">

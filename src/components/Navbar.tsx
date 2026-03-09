@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <span className="text-xl font-bold tracking-tight text-foreground">tablick</span>
         <Button asChild size="sm" className="rounded-full px-6">
-          <a href={DEMO_URL}>Prenota una demo</a>
+          <a href={DEMO_URL} target="_blank" rel="noopener noreferrer">Prenota una demo</a>
         </Button>
       </div>
     </nav>);
