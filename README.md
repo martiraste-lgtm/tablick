@@ -1,5 +1,13 @@
 # Tablick — Product Page Editori
 
+## Pagina live
+
+**URL:** https://envision-hero.lovable.app
+
+Aprire questo link nel browser per vedere la pagina esattamente come deve apparire. È la reference visiva principale da usare durante la ricostruzione.
+
+---
+
 ## Cos'è questa pagina
 
 Questa è una **product page specifica per il segmento Editori**, non una homepage generica del prodotto.
@@ -7,6 +15,10 @@ Questa è una **product page specifica per il segmento Editori**, non una homepa
 UVP, USP, elementi differenzianti e posizionamento sono stati costruiti intorno ai problemi e alle necessità specifiche degli Editori. L'obiettivo della pagina è unico: portare l'utente a prenotare una call (CTA → Calendly).
 
 **Non è una pagina da mostrare ad altri segmenti** (Università, Studenti, Professori) — il messaggio è calibrato esclusivamente su questo target.
+
+### Obiettivo e contesto di utilizzo
+
+Questa pagina è stata creata per una **campagna di outreach** verso il segmento Editori. Non ha obiettivi di indicizzazione SEO, non è pensata per il traffico organico, e non è collegata alla navigazione principale del sito. È una pagina a sé, con un singolo obiettivo di conversione: portare l'utente in call.
 
 ---
 
