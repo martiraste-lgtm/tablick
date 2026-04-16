@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# Tablick — Product Page Editori
 
-## Project info
+## Cos'è questa pagina
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Questa è una **product page specifica per il segmento Editori**, non una homepage generica del prodotto.
 
-## How can I edit this code?
+UVP, USP, elementi differenzianti e posizionamento sono stati costruiti intorno ai problemi e alle necessità specifiche degli Editori. L'obiettivo della pagina è unico: portare l'utente a prenotare una call (CTA → Calendly).
 
-There are several ways of editing your application.
+**Non è una pagina da mostrare ad altri segmenti** (Università, Studenti, Professori) — il messaggio è calibrato esclusivamente su questo target.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Note per la software house
 
-Changes made via Lovable will be committed automatically to this repo.
+Questo codice è stato generato con [Lovable](https://lovable.dev) e usa uno stack React/Vite/Tailwind, **incompatibile con l'ambiente Odoo del sito di destinazione**.
 
-**Use your preferred IDE**
+**Non è richiesta la migrazione del codice React.**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Usare questo repository come **riferimento visivo e funzionale** per ricostruire la pagina nativamente nell'ambiente del sito (Odoo, Bootstrap 4, jQuery).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Cosa ricostruire
 
-Follow these steps:
+- Layout e struttura della pagina (vedere `src/pages/` e `src/components/`)
+- Contenuti testuali: headline, body copy, CTA label
+- Stile visivo: colori, spaziature, tipografia
+- Comportamento del CTA: click → apertura Calendly in nuova tab
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### CTA / Calendly
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Il link Calendly nella pagina è un **placeholder**. Va sostituito con il link reale fornito dal cliente.
 
-# Step 3: Install the necessary dependencies.
-npm i
+Cercare nel codice: `calendly.com` o la prop/variabile associata al bottone CTA.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## Stack tecnico (solo per riferimento)
+
+| Tecnologia | Versione |
+|------------|----------|
+| React | 18+ |
+| TypeScript | 5+ |
+| Vite | 5+ |
+| Tailwind CSS | 3+ |
+| shadcn/ui | latest |
+
+---
+
+## Avviare in locale (opzionale, solo per ispezionare)
+
+```bash
+git clone https://github.com/martiraste-lgtm/tablick.git
+cd tablick
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Apre un server locale su `http://localhost:8080` (o porta indicata dal terminale).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Contatto
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Per domande sul contenuto o sul design della pagina, contattare il committente direttamente.
